@@ -1,0 +1,24 @@
+/*!
+ * This file is part of tedem/flarum-ext-right-sidebar.
+ *
+ * Copyright (c) 2021 Medet "tedem" Erdal.
+ *
+ * For the full copyright and license information, please view the LICENSE.md
+ * file that was distributed with this source code.
+ */
+
+@media @desktop-up {
+  .sideNavContainer {
+    flex-direction: row-reverse;
+  }
+
+  :not(.TagsPage-nav).sideNav {
+    margin-right: 0;
+    margin-left: 50px;
+  }
+
+  .Composer:not(.fullScreen) {
+    margin-right: 220px;
+    margin-left: -20px;
+  }
+}

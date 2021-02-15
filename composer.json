@@ -1,0 +1,44 @@
+{
+  "name": "tedem/flarum-ext-right-sidebar",
+  "description": "Move the sidebar on the right side.",
+  "keywords": [
+    "tedem",
+    "flarum",
+    "right",
+    "sidebar"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/tedem/flarum-ext-right-sidebar/issues",
+    "source": "https://github.com/tedem/flarum-ext-right-sidebar",
+    "forum": "https://discuss.flarum.org"
+  },
+  "homepage": "https://flarum.org",
+  "require": {
+    "flarum/core": ">=0.1.0-beta.15 <0.1.0-beta.16"
+  },
+  "authors": [
+    {
+      "name": "tedem",
+      "email": "hey@tedem.dev",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "tedem\\RightSidebar\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Right Sidebar",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-window-maximize fa-rotate-90",
+        "backgroundColor": "#009688",
+        "color": "#fff"
+      }
+    }
+  }
+}
